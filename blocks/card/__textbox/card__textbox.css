@@ -1,0 +1,11 @@
+.card__textbox {
+    align-self: start;
+    grid-area: textbox;
+    margin: 0;
+
+}
+@media screen and (max-width: 320px) {
+    .card__textbox {
+        padding: 0 16px;
+    }
+}

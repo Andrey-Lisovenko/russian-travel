@@ -1,0 +1,6 @@
+.card__image {
+    margin: 0;
+    grid-area:image;
+    object-fit: cover;
+    max-width: 100%;
+}
