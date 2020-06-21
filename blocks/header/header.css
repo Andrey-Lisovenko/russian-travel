@@ -1,9 +1,9 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-link/__active/header__lang-link__active.css);
 
 .header {
-    height: 52px;  
     display: flex;
     flex-direction: row;
     justify-content: space-between;

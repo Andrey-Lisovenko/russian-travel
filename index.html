@@ -12,8 +12,8 @@
         <header class="header">
             <div class="header__logo"></div>
             <ul class="header__lang-links">
-                <li><a href="#" class="header__lang-link header__lang-link_decoration_underline">Ru</a></li>
-                <li><a href="#" class="header__lang-link header__lang-link_decoration_underline">En</a></li>
+                <li><a href="#" class="header__lang-link header__lang-link__active">Ru</a></li>
+                <li><a href="#" class="header__lang-link">En</a></li>
             </ul>
         </header>
 
@@ -30,34 +30,60 @@
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов <span class="intro__span-accent">11</span></li>
-                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
-                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
-                    <li>Природных заповедников <span class="intro__span-accent">105</span></li>
-                    <li>Аэропортов <span class="intro__span-accent">241</span></li>
+                    <li><span class="intro__span-accent">Часовых поясов </span>11</li>
+                    <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
+                    <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО </span> 16</li>
+                    <li><span class="intro__span-accent">Природных заповедников </span>105</li>
+                    <li><span class="intro__span-accent">Аэропортов </span>241</li>
                 </ul>
             </section>
 
             <section class="photo-grid">
-                <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
-                <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы">
-                <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман">
-                <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Лес">
-                <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Машина на льду">
-                <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
-                <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
-                <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода">
-                <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Пейзаж Камчатки">
-                <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Пейзаж Камчатки">
-                <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
-                <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Горы">
+                <ul class="photo-grid__list">
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-train.jpg" alt="Поезд">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы">
+                    </li>    
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-tuman.jpg" alt="Туман">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-sochi.jpg" alt="Лес">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-arisa.jpg" alt="Машина на льду">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-baikal.jpg" alt="Байкал">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-kamchatka-1.jpg" alt="Пейзаж Камчатки">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-kamchatka-2.jpg" alt="Пейзаж Камчатки">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
+                    </li>
+                    <li class="photo-grid__item">
+                        <img class="photo-grid__item-foto" src="./images/photo-grid-ergaki.jpg" alt="Горы">
+                    </li>
+                </ul>
             </section>
 
             <section class="places">
 
                 <article class="card">
                  <h3 class="card__title">Куршская коса</h3>
-                 <div class="card__website"><p class="card__url-heading">URL</p>
+                 <div class="card__website"><p class="card__url-heading">url</p>
                  <a href="park-kosa.ru" class="card__link">park-kosa.ru</a>
                 </div>
                  <img class="card__image" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -69,7 +95,7 @@
 
                 <article class="card">
                     <h3 class="card__title">Кольский</h3>
-                    <div class="card__website"><p class="card__url-heading">URL</p>
+                    <div class="card__website"><p class="card__url-heading">url</p>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="card__link">National Geographic</a>
                    </div>
                     <img class="card__image" src="./images/place-kolsky.jpg" alt="Кольский">
@@ -83,7 +109,7 @@
 
                    <article class="card">
                     <h3 class="card__title">Алтай</h3>
-                    <div class="card__website"><p class="card__url-heading">URL</p>
+                    <div class="card__website"><p class="card__url-heading">url</p>
                     <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="card__link">Faceboook</a>
                    </div>
                     <img class="card__image" src="./images/place-altai.jpg" alt="Алтай">
@@ -96,7 +122,7 @@
 
                    <article class="card">
                     <h3 class="card__title">Зимний Байкал</h3>
-                    <div class="card__website"><p class="card__url-heading">URL</p>
+                    <div class="card__website"><p class="card__url-heading">url</p>
                     <a href="https://vk.com/baikalmile" class="card__link">https://vk.com/baikalmile</a>
                    </div>
                     <img class="card__image" src="./images/place-winter-baikal.jpg" alt="Байкал">
@@ -110,7 +136,7 @@
 
                    <article class="card">
                     <h3 class="card__title">Карелия</h3>
-                    <div class="card__website"><p class="card__url-heading">URL</p>
+                    <div class="card__website"><p class="card__url-heading">url</p>
                     <a href="http://vodlozero.ru/" class="card__link">http://vodlozero.ru/</a>
                    </div>
                     <img class="card__image" src="./images/place-karelia.jpg" alt="Карелия">
@@ -127,7 +153,6 @@
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
                 <div class="cover__overlay"></div>
-                <div class="cover__background"></div>
                 </a>
             </section>
         </main>
