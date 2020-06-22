@@ -5,9 +5,9 @@
 .photo-grid { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    margin: 0 48px; 
+    margin: 0 auto 0; 
     grid-gap: 16px; 
-    padding: 92px 0 0 
+    padding: 0 48px 0;
 } 
  
 @media screen and (max-width: 768px) { 

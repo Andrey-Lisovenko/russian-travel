@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 698px) {
+    .card__website {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .card__website {
         display: none;

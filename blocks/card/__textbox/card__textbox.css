@@ -6,6 +6,7 @@
 }
 @media screen and (max-width: 320px) {
     .card__textbox {
-        padding: 0 16px;
+        padding: 0 16px 0;
+        margin: 32px 0 0;
     }
 }

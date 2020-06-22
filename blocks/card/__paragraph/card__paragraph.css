@@ -13,9 +13,17 @@
 
 @media screen and (max-width: 768px) {
     .card__paragraph {
+        max-width: 352px;
         font-size: 16px;
+        line-height: 26px;
     }
-    .card__paragraph:first-child {
-        padding-bottom: 24px;
+
+}
+
+@media screen and (max-width: 320px) {
+    .card__paragraph {
+        margin: 32px 0 0;
+        max-width: 320px;
     }
+
 }

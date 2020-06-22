@@ -7,15 +7,16 @@
 @import url(./__paragraph/card__paragraph.css);
 
 .card {
-    width: 100%;
+    max-width: 984px;
     display: grid;
-    grid-template-columns: minmax(460px, 1fr) 1fr;
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
-    padding: 92px 0 0 0;
+    margin: 0 auto 80px auto;
     grid-template-areas: 
     "title website"
     "image textbox";
 }
+
 @media screen and (max-width: 1024px) {
     .card {
         gap: 48px 32px;

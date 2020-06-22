@@ -1,23 +1,32 @@
-@import url(./__image/lead__image.css);
-@import url(./__caption/lead__caption.css);
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
 
 .lead {
-    align-content: center;
-    align-items: center;     
     display: flex;
     flex-direction: column;
-    margin: 0 148px 0 148px;     
+    align-items: center;
+    width: 100%;
+    padding: 115px 140px 35px 156px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
-@media screen and (max-width: 1024px) {
+
+@media (max-width: 1184px) {
     .lead {
-        margin: 0 48px;
+        padding: 48px 48px 92px 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 868px) {
     .lead {
-        margin: 0;
+        padding: 48px 0 88px 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .lead {
+        padding: 48px 0 64px 0;
     }
 }
