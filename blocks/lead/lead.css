@@ -6,27 +6,13 @@
 .lead {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 115px 140px 35px 156px;
-    box-sizing: border-box;
-    margin: 0 auto;
+    justify-items: center;
+    padding: 0 48px 0;
+    max-width: 1184px;
 }
 
-@media (max-width: 1184px) {
+@media screen and (max-width: 768px){
     .lead {
-        padding: 48px 48px 92px 48px;
-    }
-}
-
-@media (max-width: 868px) {
-    .lead {
-        padding: 48px 0 88px 0;
-    }
-}
-
-@media (max-width: 640px) {
-    .lead {
-        padding: 48px 0 64px 0;
+        padding: 0;
     }
 }
