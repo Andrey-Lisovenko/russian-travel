@@ -1,15 +1,3 @@
 .card__image {
-    margin: 0;
-    grid-area:image;
-    object-fit: cover;
-    max-width: 100%;
-}
-
-
-
-@media screen and (max-width: 320px) {
-    .card__image {
-        max-height: 320px;
-        max-width: 320px;
-    }
+    width: 100%;
 }

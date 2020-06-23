@@ -1,11 +1,11 @@
 .card__link {
-    text-decoration-line: underline;
     font-weight: normal;
-    line-height: 22px;
     font-size: 18px;
-    color: #FFFFFF;
-    opacity: 100%;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    opacity: 1;
 }
 .card__link:hover {
-    opacity: 40%;
+    opacity: 0.8;
 }

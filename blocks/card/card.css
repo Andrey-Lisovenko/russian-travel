@@ -12,32 +12,37 @@
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
     margin: 0 auto 80px auto;
-    grid-template-areas: 
-    "title website"
-    "image textbox";
+}
+.card:last-child {
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
     .card {
+        grid-template-columns: 440px 1fr;
         gap: 48px 32px;
-        grid-template-columns: minmax(440px, 1fr) 1fr;
+    }
+    .card:last-child {
+        margin: 0 auto;
     }
 }
-@media screen and (max-width: 768px) {
-.card {
-    grid-template-columns: minmax(340px, 1fr) 1fr;
-    gap: 48px 28px;
-    padding: 88px 0 0 0;
-}
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 868px) {
     .card {
-        grid-template-columns: minmax(320px, 1fr);
-        grid-template-areas: 
-        "image"
-        "title"  
-        "textbox";
-        padding: 64px 0 0 0;
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+        margin: 0 24px 48px 24px;
+    }
+    .card:last-child {
+        margin: 0 24px 0 24px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .card {
+        grid-template-columns: 1fr;
         gap: 32px;
+        margin: 0 auto 24px auto;
+    }
+    .card:last-child {
+        margin: 0 auto;
     }
 }

@@ -1,16 +1,9 @@
 .card__website {
-    grid-area: website;
-    align-self: end;
     margin: 0;
+    align-self: end;
 }
 
-@media screen and (max-width: 698px) {
-    .card__website {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
     .card__website {
         display: none;
     }
