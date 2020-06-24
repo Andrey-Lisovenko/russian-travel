@@ -1,0 +1,13 @@
+.cards__website {
+    align-self: end;
+}
+
+@media screen and (max-width: 698px) {
+    .cards__website {
+        display: none;
+    }
+
+}
+
+
+

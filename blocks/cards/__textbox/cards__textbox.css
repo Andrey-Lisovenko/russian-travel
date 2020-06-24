@@ -1,0 +1,12 @@
+.cards__textbox {
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .cards__textbox {
+        padding: 0 16px 0;
+        margin: 32px 0 0;
+    }
+}
