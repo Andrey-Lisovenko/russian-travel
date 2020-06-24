@@ -8,8 +8,16 @@
     list-style: none;
     margin: 32px 0 92px;
 }
+
+@media screen and (max-width: 768px){
+    .intro__list {
+        max-width: 720px;
+        margin: 32px 0 88px;
+    }
+}
+
 @media screen and (max-width: 320px){
-    .poll__list {
+    .intro__list {
         max-width: 288px;
         margin: 32px 0 64px;
     }

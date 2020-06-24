@@ -5,8 +5,15 @@
     font-style: normal;
     line-height: 58px;
     color: #FFFFFF;
-    margin: 114px 0 40px;
+    margin: 92px 0 40px;
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title{
+    margin: 88px 0 40px;
+    max-width: 720px;
+    }
 }
 
 @media screen and (max-width: 320px) {
