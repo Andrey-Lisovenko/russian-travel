@@ -7,8 +7,15 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
+    margin: 0 auto 0;
+    max-width: 984px;
     padding: 0 48px 0;
-    max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px){
+.lead {
+    margin: 0 48px;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -16,3 +23,9 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 320px){
+    .lead {
+        margin: 0 auto;
+    }
+    }

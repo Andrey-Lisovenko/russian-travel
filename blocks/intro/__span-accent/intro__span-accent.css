@@ -1,6 +1,10 @@
 .intro__span-accent {
     list-style: none;
+    max-width: 690px;
+    font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 1.5;   
+    line-height: 18px;
+    margin: 0;
+    text-align: left;
 }
