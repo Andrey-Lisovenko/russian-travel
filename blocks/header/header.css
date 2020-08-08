@@ -1,28 +1,24 @@
+@import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__logo/header__logo.css);
-@import url(./__lang-link/__active/header__lang-link_active.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
-.header {
+.header{
     display: flex;
-    justify-content: space-between;  
-    max-width: 1184px;
-    flex-direction: row;
-    margin: 28px auto 0 auto;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 28px 48px 0 48px;
+    align-items: flex-end;
+    justify-content:space-between;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 868px) {
     .header {
-        padding: 0 48px 0;
+        padding: 28px 24px 0 24px;
     }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 640px) {
     .header {
-        padding: 0 24px 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    .header {
-        padding: 0 16px 0;
-    }
-}
+        padding: 16px 16px 0 16px;
+   

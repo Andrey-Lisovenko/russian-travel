@@ -1,8 +1,7 @@
-.page {
-    background-color: #2A2C2F;
-    margin: 0 auto 0;
-    max-width: 1280px;
-    min-width: 320px;
-    font-family: Inter, 'Arial', sans-serif;
+@import url(./__content/page__content.css);
+
+.page{
+    background: #2a2c2f;
+    font-family: "Inter", Arial, sans-serif;
     text-rendering: optimizeLegibility;
 }
