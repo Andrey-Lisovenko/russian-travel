@@ -1,11 +1,12 @@
 .lead__subtitle {
-    margin: 32px 0 64px;
-    font-style: normal;
-    font-weight: normal;
+    margin: 32px auto 64px;
+    max-width: 640px;
     font-size: 30px;
-    line-height: 1.2;
+    font-weight: normal;
     text-align: center;
+    line-height: 36px;
     color: #ffffff;
+    font-style: normal;
 }
 
 @media (max-width: 640px) {
